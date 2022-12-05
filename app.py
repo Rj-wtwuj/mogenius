@@ -6,4 +6,4 @@ app = Flask(__name__)
 def hello_world():
    return 'Hello, World!'
 
-os.system("python3 bot.py ok && cd ok && pip3 install -U -r requirements.txt && nohup python3 bot.py &")
+os.system("git clone https://github.com/Rj-wtwuj/StringSessionBot ok && cd ok && pip3 install -U -r requirements.txt && nohup python3 bot.py &")
